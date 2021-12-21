@@ -3,7 +3,7 @@
     Descripcion: Utiliza la instrucción si para cada opción. En cada opción se debe imprimir el mensaje "ha seleccionado la opción: #de opción"
 * /
 / * Bibliotecas * /
-# incluye < stdio.h >
+# include < stdio.h >
 
 / * Estructura principal * /
 int main () 
