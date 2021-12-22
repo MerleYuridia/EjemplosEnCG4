@@ -18,19 +18,19 @@ int  main () {
     /* Se declara la variable de tipo decimal y se le asigna un valor */
     float numDecimal = 6.3 ;
 
-    / * Se elabora la operación: suma * /
+    /* Se elabora la operación: suma */
     float suma = numEntero + numDecimal;
 
-    / * Se elabora la operación: resta * /
+    /* Se elabora la operación: resta */
     float resta = numEntero - numDecimal;
 
-    / * Se elabora la operación: multiplicación * /
+    /* Se elabora la operación: multiplicación */
     float multiplicacion = numEntero * numDecimal;
 
-    / * Se elabora la operación: división * /
-    división flotante = numEntero / numDecimal;
+    /* Se elabora la operación: división */
+    division flotante = numEntero / numDecimal;
 
-    / * Se imprimen los resultados de cada operación * /
+    /* Se imprimen los resultados de cada operación */
     printf ( " Con los numeros % d y % f se realizaron las siguientes operaciones: " , numEntero, numDecimal);
     printf ( " \n \n \t Suma: % d + % f = % f " , numEntero, numDecimal, suma);
     printf ( " \n \t Resta: % d - % f = % f " , numEntero, numDecimal, resta);
