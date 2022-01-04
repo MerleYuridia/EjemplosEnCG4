@@ -9,7 +9,7 @@
 / * Bibliotecas * /
 #include  < stdio.h >
 
-/* se declara las variables correspondientes */
+/* declara las variables */
 int numE;
 float numF;
 flotante suma, resta, mult, div;
@@ -28,25 +28,25 @@ int  main ()
 	printf ( " Ingresa un numero decimal: " );
 	scanf ( " % f " , & numF);
 	
-	/* Se asigna valor a la variable suma */
-	suma = (numE + numF);
-	/* Se muestra el resultado final */
-	printf ( " \n Resultado de la SUMA de: % d + % .2f = % .2f \n " , numE, numF, suma);
+	
+	suma = (numE + numF); /* Se asigna valor a la variable suma */
+	
+	printf ( " \n Resultado de la SUMA de: % d + % .2f = % .2f \n " , numE, numF, suma); /* Se muestra el resultado final */
 
-	/* Se asigna valor a la variable resta */
-	resta = (numE - numF);
-	/* Se muestra el resultado final */
-	printf ( " \n Resultado de la RESTA de: % d - % .2f = % .2f \n " , numE, numF, resta);
 	
-	/* Se asigna valor a la variable mult */
-	mult = (numE * numF);
-	/* Se muestra el resultado final */ 
-	printf ( " \n Resultado de la MULTIPLICACION de: % d x % .2f = % .2f \n " , numE, numF, mult);
+	resta = (numE - numF); /* Se asigna valor a la variable resta */
 	
-	/* Se asigna valor a la variable div */
-	div = (numE / numF);
-	/* Se muestra el resultado final */
-	printf ( " \n Resultado de la DIVISION de: % d / % .2f = % .2f \n \n " , numE, numF, div );
+	printf ( " \n La RESTA de: % d - % .2f = % .2f \n " , numE, numF, resta); /* Se muestra el resultado final */
+	
+	
+	mult = (numE * numF); /* Se asigna valor a la variable mult */
+	
+	printf ( " \n La MULTIPLICACION de: % d x % .2f = % .2f \n " , numE, numF, mult); /* Se muestra el resultado final */ 
+	
+	
+	div = (numE / numF);  /* Se asigna valor a la variable div */
+	
+	printf ( " \n La DIVISION de: % d / % .2f = % .2f \n \n " , numE, numF, div ); /* Se muestra el resultado final */
 	
 	return  0 ;
 }
